@@ -14,7 +14,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 960px;
+  max-width: 980px;
   margin: 0 auto;
   clear: both;
 }
@@ -238,25 +238,29 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width:959px) {
+/* Media Query for 980px wide screen) */ 
+@media screen and (max-width:980px) {
   
 .container{
     width:100%;
+/*    margin: 0 auto;*/
   }
   
- #masthead{
+/* #masthead{
     width:100%;
-  }
+  }*/
  
- #logo {
+/* #logo {
  width:100%;
 }
- 
+ */
 
  a{
     font-size: 3vw;
   }
- 
+ #main-container {
+  margin:0 auto;
+ }
 
 .main-section {
     width:70%;
@@ -274,6 +278,83 @@ input[type=submit] {
 .social {
   width:100%;
   max-width:60px;
+  height:auto;
+}
+
+
+h1 {
+  font-size: 4vw;
+}
+
+
+h2 {
+  font-size: 100%;
+}
+
+
+h3{
+
+ font-size: 3vw;
+}
+
+
+p {
+  font-size: 3vw;
+  line-height:2em; 
+}
+
+footer {
+  width:100%;
+  font-size:2vw;
+}
+
+.work {
+  width:100%;
+}
+
+#img{
+  width:100%;
+  max-width:175px;
+}
+.work h3{
+  width:100%;
+  max-width: 274px;
+  height:auto;
+}
+  
+/* Media Query for 959px wide screen) */ 
+@media screen and (max-width:780px) {
+  
+.container{
+    width:100%;
+    max-width:780;
+  }
+  
+ 
+
+ a{
+    font-size: 3vw;
+  }
+ 
+
+
+.main-section {
+    width:100%;
+  }
+
+.sidebar {
+  float: left;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ddd;
+  
+.auth-image {
+     width:100%;  
+  }
+
+
+.social {
+  width:100%;
   height:auto;
 }
 
@@ -316,6 +397,4 @@ footer {
   width:100%;
   max-width: 274px;
   height:auto;
-}
-  
 }
